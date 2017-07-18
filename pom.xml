@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.cyberpwn</groupId>
 	<artifactId>phantom</artifactId>
-	<version>Y</version>
+	<version>O</version>
 	<name>Phantom</name>
 	<description>Another Damn API</description>
 	<properties>
@@ -130,34 +130,6 @@
 	</profiles>
 	<repositories>
 		<repository>
-			<id>dmulloy2-repo</id>
-			<url>http://repo.dmulloy2.net/content/groups/public/</url>
-		</repository>
-		<repository>
-			<id>empcraft-repo</id>
-			<url>http://empcraft.com/maven2</url>
-		</repository>
-		<repository>
-			<id>techcable-repo</id>
-			<url>http://repo.techcable.net/content/groups/public/</url>
-		</repository>
-		<repository>
-			<id>sk80q</id>
-			<url>http://maven.sk89q.com/artifactory/repo/</url>
-		</repository>
-		<repository>
-			<id>vault-repo</id>
-			<url>http://nexus.hc.to/content/repositories/pub_releases</url>
-		</repository>
-		<repository>
-			<id>citizens</id>
-			<url>http://repo.citizensnpcs.co/</url>
-		</repository>
-		<repository>
-			<id>fawer</id>
-			<url>http://ci.athion.net/job/FastAsyncWorldEdit/ws/mvn/</url>
-		</repository>
-		<repository>
 			<id>spigot-repo</id>
 			<url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
 		</repository>
@@ -170,25 +142,6 @@
 	</distributionManagement>
 	<dependencies>
 		<dependency>
-			<groupId>com.boydti</groupId>
-			<artifactId>fawe</artifactId>
-			<version>latest</version>
-			<scope>system</scope>
-			<systemPath>${req.lib}/FastAsyncWorldEdit-bukkit-17.07.06-ded70ab-743-13.6.1.jar</systemPath>
-		</dependency>
-		<dependency>
-			<groupId>com.boydti</groupId>
-			<artifactId>fawe-api</artifactId>
-			<version>latest</version>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.spigotmc</groupId>
-			<artifactId>spigot-api</artifactId>
-			<version>1.12-R0.1-SNAPSHOT</version>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
 			<groupId>org.bukkit</groupId>
 			<artifactId>bukkit</artifactId>
 			<version>1.12-R0.1-SNAPSHOT</version>
@@ -200,23 +153,6 @@
 			<version>1.12-R0.1-SNAPSHOT</version>
 			<scope>system</scope>
 			<systemPath>${req.lib}/craftbukkit-1.12.jar</systemPath>
-		</dependency>
-		<dependency>
-			<groupId>com.sk89q</groupId>
-			<artifactId>worldedit</artifactId>
-			<version>6.0.0-SNAPSHOT</version>
-			<scope>compile</scope>
-		</dependency>
-		<dependency>
-			<groupId>net.milkbowl.vault</groupId>
-			<artifactId>VaultAPI</artifactId>
-			<version>1.6</version>
-			<scope>compile</scope>
-		</dependency>
-		<dependency>
-			<groupId>com.comphenix.protocol</groupId>
-			<artifactId>ProtocolLib-API</artifactId>
-			<version>4.3.0</version>
 		</dependency>
 	</dependencies>
 </project>
